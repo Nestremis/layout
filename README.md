@@ -1,6 +1,6 @@
 # REACT application 
 
-Published on: https://nestremis.github.io/responsive-task/
+Published on: https://nestremis.github.io/recruit/
 
 
 ### FUNKCJONALNOŚĆ
