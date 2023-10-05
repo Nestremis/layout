@@ -18,7 +18,7 @@ const Topbar = ({name}) => {
                 </div>          
 
                  <h1>
-                    <span style={{fontWeight:'400'}}>Zadanie</span> responsywne
+                    <span style={{fontWeight:'400'}}>Strona</span> responsywne
                     
                     {name && (
                         <div style={{fontWeight:'300'}}>
