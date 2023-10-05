@@ -23,7 +23,7 @@ const Footer = ({setName, setReset}) => {
                 <div className='square'></div>
             </div>
                
-                <h3 title='nabthat'> nabthat </h3>    
+                <h3 title='nabthat'> trainee </h3>    
 
 
                 <div className="dropup">
