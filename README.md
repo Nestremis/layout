@@ -4,7 +4,7 @@ Published on: https://nestremis.github.io/recruit/
 
 
 ### FUNKCJONALNOŚĆ
-W bloku pierwszym są radiobuttony, ich wybór a następnie kliknięcie przycisku w bloku drugim wykona akcję podmiany lub doklejenia tekstu w bloku ostatnim. Treęci są pobrane z JSONa. Opcja pierwsza wybierze zawsze treść pierwszą, opcja druga drugą, a opcja losowa dowolną z pozostałych. Doklejając treść nie ma powielania już istniejącej treści (w przypadku użycia opcji losowej należy wylosować kolejną jeszcze nie użytą treść). 
+W bloku pierwszym są radiobuttony, ich wybór a następnie kliknięcie przycisku w bloku drugim wykona akcję podmiany lub doklejenia tekstu w bloku ostatnim. Treści są pobrane z JSONa. Opcja pierwsza wybierze zawsze treść pierwszą, opcja druga drugą, a opcja losowa dowolną z pozostałych. Doklejając treść nie ma powielania już istniejącej treści (w przypadku użycia opcji losowej wylosuje kolejną - jeszcze nie użytą - treść). 
 
 Button 'pokaż' w footerze po kliknięciu pokazuje ramkę (wysuwa ją spod footera) z 2 klikalnymi opcjami. Pierwsza przywraca stronę do początkowych ustawień, druga w headerze dokleja imię i nazwisko.
 
