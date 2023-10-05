@@ -1,4 +1,4 @@
-# REACT JS application 
+# REACT application 
 
 Published on: https://nestremis.github.io/recruit/
 
