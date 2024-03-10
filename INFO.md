@@ -1,5 +1,5 @@
 REACT application
-Published on: https://nestremis.github.io/recruit/
+Published on: https://nestremis.github.io/layout/
 
 FUNCTIONALITY
 There are radiobuttons in block one, selecting them and then clicking the button in block two will perform the action of replacing or pasting the text in the last block. The contents are taken from JSON. Option one will always select content one, option two will always select content two, and the random option will select any of the others. By docking the content, there is no duplication of already existing content (if you use the random option, it will draw another - not yet used - content).
