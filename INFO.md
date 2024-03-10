@@ -1,11 +1,10 @@
-### CELE G£ÓWNE - wszystkie
+REACT application
+Published on: https://nestremis.github.io/recruit/
 
-### LISTA WYKONANYCH CELÓW DODATKOWYCH
-- Osadzenie ca³ego zadania w JSowym frameworku(wykonano w REACT)
-- Brak plików graficznych w koñcowym projekcie (chodzi o to by wœród plików nie znalaz³ siê ¿aden plik z rozszerzeniem typowo graficznym (jpg, png, svg, itp).
-- CSS IS AWESOME w footerze - po najechaniu myszk¹ ramka (bez tekstu) powinna wykonaæ animowany obrót.
-- Zastosowanie SCSS
-- Logiczne wykorzystanie jednostek rem, em, vh, vw (w efekcie jak najmniejsze u¿ycie jednostki px).
-- Mo¿liwie ma³o kodu odpowiedzialnego za responsywnoœæ.
-- Button w footerze ("poka¿") wysuwaj¹cy ramkê bez u¿ycia JSa.
+FUNCTIONALITY
+There are radiobuttons in block one, selecting them and then clicking the button in block two will perform the action of replacing or pasting the text in the last block. The contents are taken from JSON. Option one will always select content one, option two will always select content two, and the random option will select any of the others. By docking the content, there is no duplication of already existing content (if you use the random option, it will draw another - not yet used - content).
+
+The 'show' button in the footer, when clicked, shows a frame (slides it out from under the footer) with 2 clickable options. The first one restores the page to the initial settings, the second one in the header docks the name.
+
+The app is responsive.
 
