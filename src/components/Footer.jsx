@@ -23,27 +23,27 @@ const Footer = ({setName, setReset}) => {
                 <div className='square'></div>
             </div>
                
-                <h3 title='nabthat'> nabthat </h3>    
+                <h3 title='nabthat'> koa software </h3>    
 
 
                 <div className="dropup">
 
                     <input type='checkbox' id='mark'/>                    
                     <label htmlFor='mark' className='footlabel'>
-                        POKAŻ                         
+                        SHOW                         
                     </label>    
                     
                     <div className='slide'>
                         <button 
                             onClick={() => makeReset()}
                         >
-                          <i></i> ZRESETUJ USTAWIENIA
+                          <i></i> RESET SETTINGS
                         </button>
                       
                         <button 
                             onClick={() => showName()}
                         > 
-                            <i></i> POKAŻ DANE OSOBOWE
+                            <i></i> SHOW PERSONAL DATA
                         </button>
                     </div>
 

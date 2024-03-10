@@ -18,11 +18,11 @@ const Topbar = ({name}) => {
                 </div>          
 
                  <h1>
-                    <span style={{fontWeight:'400'}}>Zadanie</span> rekrutacyjne
+                    <span style={{fontWeight:'400'}}>Layout</span> task 
                     
                     {name && (
                         <div style={{fontWeight:'300'}}>
-                            Witold Nawrot
+                            Wyatt Earp
                         </div>
                     )}    
                 </h1>       

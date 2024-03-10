@@ -8,13 +8,13 @@ const BlockOne = ({setOptionMade, reset, setReset }) => {
   const [selected, setSelected] = useState('');
   
   const firstOptionChange = () => {
-    setSelected('Opcja pierwsza');
+    setSelected('First option');
   };
   const secondOptionChange = () => {
-    setSelected('Opcja druga');
+    setSelected('Second option');
   };
   const thirdOptionChange = () => {
-    setSelected('Opcja losowa');
+    setSelected('Random option');
   };
 
   function passChosenOption() {
@@ -35,20 +35,20 @@ const BlockOne = ({setOptionMade, reset, setReset }) => {
     <div className="blockOne">
       <div className="fieldset">        
             <RadioButton 
-              label="Opcja pierwsza"
-              value={selected === "Opcja pierwsza"}
+              label="First option"
+              value={selected === "First option"}
               onChange={firstOptionChange}
               checked={passChosenOption()}
             />
             <RadioButton 
-              label="Opcja druga"
-              value={selected === "Opcja druga"}
+              label="Second option"
+              value={selected === "Second option"}
               onChange={secondOptionChange}
               checked={passChosenOption()}
             />
             <RadioButton 
-              label="Opcja losowa"
-              value={selected === 'Opcja losowa'}
+              label="Random option"
+              value={selected === "Random option"}
               onChange={thirdOptionChange}
               checked={passChosenOption()}
             />

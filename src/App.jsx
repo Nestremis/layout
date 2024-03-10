@@ -23,13 +23,13 @@ function App() {
       <main> 
       
         <header>
-          <h1> N<span className="underline">agłówek H</span>1</h1>
+          <h1> H<span className="underline">eader H</span>1</h1>
         </header>
 
           <section> 
 
             <div className="block-1"> 
-              <h3>BLOK PIERWSZY</h3> 
+              <h3>BLOCK ONE</h3> 
               <BlockOne 
               setOptionMade={setOptionMade}
               reset={reset}
@@ -38,7 +38,7 @@ function App() {
             </div>
 
             <div className="block-2"> 
-              <h3>BLOK DRUGI</h3> 
+              <h3>BLOCK TWO</h3> 
               <BlockTwo 
                 optionMade={optionMade}
                 setCurrentRecord={setCurrentRecord}
@@ -48,7 +48,7 @@ function App() {
             </div>
 
             <div className="block-3"> 
-              <h3>BLOK Z DŁUGĄ NAZWĄ KTÓRA SAMA SIĘ PRZYTNIE...</h3> 
+              <h3>A BLOCK WITH A LONG NAME THAT CUTS ITSELF....</h3> 
               <BlockThree
                 currentRecord={currentRecord}
                 addedRecord={addedRecord}

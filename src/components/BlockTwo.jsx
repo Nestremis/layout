@@ -7,11 +7,11 @@ const BlockTwo = ({ optionMade, setCurrentRecord, currentRecord, setAddedRecord 
   let random = Math.floor(Math.random() * records.length);
 
   const handleReplace = () => {
-    if (optionMade === 'Opcja pierwsza') {
+    if (optionMade === 'First option') {
       setCurrentRecord(records[0].content);
-    } else if (optionMade === 'Opcja druga') {
+    } else if (optionMade === 'Second option') {
       setCurrentRecord(records[1].content)
-    } else if (optionMade === 'Opcja losowa') {
+    } else if (optionMade === 'Third option') {
       setCurrentRecord(records[random].content)
     }
   };
@@ -22,7 +22,7 @@ const BlockTwo = ({ optionMade, setCurrentRecord, currentRecord, setAddedRecord 
       if (currentRecord !== nextRandomText) {
         setAddedRecord(nextRandomText)
       } else if (currentRecord === nextRandomText) {
-        setAddedRecord('TREŚĆ POWTÓRZONA - LOSUJ KOLEJNĄ');
+        setAddedRecord('CONTENT REPEATED - DRAW THE NEXT ONE');
       }
   };
 
@@ -32,13 +32,13 @@ const BlockTwo = ({ optionMade, setCurrentRecord, currentRecord, setAddedRecord 
         <button 
           onClick={() => handleReplace()}
         > 
-          ZASTĄP 
+          REPLACE 
         </button>
 
         <button 
           onClick={() => handleAddText()}
         > 
-          DOKLEJ 
+          DOCK 
         </button>
 
     </div>
