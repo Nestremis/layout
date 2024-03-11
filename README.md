@@ -10,5 +10,5 @@ By docking the content, there is no duplication of already existing content (if 
 
 The 'show' button in the footer, when clicked, shows a frame (slides it out from under the footer) with 2 clickable options. The first one restores the page to the initial settings, the second one in the header docks the name.
 
-The app is responsive.
+The app is fully responsive.
 
