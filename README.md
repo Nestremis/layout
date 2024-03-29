@@ -1,4 +1,4 @@
-# REACT application 
+# Layouy example 
 
 Published on: https://nestremis.github.io/layout/
 
