@@ -1,4 +1,4 @@
-# Layouy example 
+# Layout example 
 
 Published on: https://nestremis.github.io/layout/
 
