@@ -1,4 +1,4 @@
-# REACT application 
+# REACT layout example 
 
 Published on: https://nestremis.github.io/layout/
 
