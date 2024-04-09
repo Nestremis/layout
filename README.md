@@ -9,6 +9,6 @@ The app is responsive.
 
 Published on: https://nestremis.github.io/layout/
 
-$nbsp;
+&nbsp;
 ![Screen Shot 2024-04-08 at 13 55 08 PM](https://github.com/Nestremis/layout/assets/76690775/4215bb8b-d684-4213-b252-0ea5f364e939)
 ![Screen Shot 2024-04-08 at 13 55 50 PM](https://github.com/Nestremis/layout/assets/76690775/9b717ddd-8959-4b28-9bc3-7e83b340b547)
